@@ -36,3 +36,4 @@ module.exports.waitFirstMail = name => {
         await check();
     });
 };
+
