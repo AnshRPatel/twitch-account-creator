@@ -136,3 +136,4 @@ module.exports.GetAvatarURL = (name) => {
     return 'https://api.dicebear.com/6.x/' + avatar_lists[Math.floor(Math.random() * avatar_lists.length)] + '/png?seed=' + name + '&size=300&backgroundColor=' + (Math.random() * 0xFFFFFF << 0).toString(16).padStart(6, '0');
 }
 
+
